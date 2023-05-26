@@ -27,7 +27,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Auth::routes();
 Route::resource('articulos', ArticuloController::class);
 Route::resource('clientes', ClienteController::class);
-route::resource('pedidos', PedidoController::class);
+Route::resource('pedidos', PedidoController::class);
 Route::resource('facturas', FacturaController::class);
 Route::resource('facturas-items', FacturasItemController::class);
 Route::resource('pedidos-items', PedidosItemController::class);
